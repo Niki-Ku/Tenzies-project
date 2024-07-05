@@ -1,9 +1,6 @@
 
 export default function Square(props){
 
-    // const styles={
-    //     backgroundColor: '#222222'
-    // }
     return(
         <div 
         className="square" 

@@ -7,15 +7,6 @@ import './App.css'
 
 function App() {
 
-/**
- * Challenge: Tie off loose ends!
- * 1. If tenzies is true, Change the button text to "New Game"
- * 2. If tenzies is true, use the "react-confetti" package to
- *    render the <Confetti /> component 🎉
- * 
- *    Hint: don't worry about the `height` and `width` props
- *    it mentions in the documentation.
- */
   const [numbersArr, setNumbersArr] = useState(allNewDice)
   const [tenzies, setTenzies] = useState(false)
 
